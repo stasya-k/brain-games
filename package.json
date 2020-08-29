@@ -1,0 +1,29 @@
+{
+  "name": "frontend-project-lvl1",
+  "version": "1.0.0",
+  "description": "first hexlet frontend JS project",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhura-a/frontend-project-lvl1.git"
+  },
+  "keywords": [
+    "brain",
+    "games",
+    "mind",
+    "cli"
+  ],
+  "author": "Anastasia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhura-a/frontend-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/zhura-a/frontend-project-lvl1#readme"
+}
