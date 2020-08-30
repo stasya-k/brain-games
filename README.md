@@ -1,0 +1,2 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/04a0a7ae0960c594e511/maintainability)](https://codeclimate.com/github/zhura-a/frontend-project-lvl1/maintainability)
+[![Node](https://github.com/zhura-a/frontend-project-lvl1/workflows/Node/badge.svg)](https://github.com/zhura-a/frontend-project-lvl1/actions)
