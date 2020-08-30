@@ -1,6 +1,4 @@
-import gameStart from '../index.js';
-
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+import { gameStart, getRandomInt } from '../index.js';
 
 const description = 'What is the result of the expression?';
 

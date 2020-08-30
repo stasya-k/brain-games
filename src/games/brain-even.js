@@ -1,6 +1,4 @@
-import gameStart from '../index.js';
-
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+import { gameStart, getRandomInt } from '../index.js';
 
 const isEven = (num) => num % 2 === 0;
 const description = 'Answer "yes" if number is even, otherwise answer "no"';

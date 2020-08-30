@@ -9,7 +9,7 @@
 
 ### Brain Even
 
-[![asciicast](https://asciinema.org/a/Gvr8CfNbKzkprPNr1ErTZDMeQ.svg)](https://asciinema.org/a/Gvr8CfNbKzkprPNr1ErTZDMeQ)
+[![asciicast](https://asciinema.org/a/9SXXoipnLs5yJ7GzrE1yr4hOI.svg)](https://asciinema.org/a/9SXXoipnLs5yJ7GzrE1yr4hOI)
 
 ### Brain Calc
 
@@ -18,3 +18,7 @@
 ### Brain Gcd
 
 [![asciicast](https://asciinema.org/a/Phc7SfX3RfvoiEDUarvKrHzDj.svg)](https://asciinema.org/a/Phc7SfX3RfvoiEDUarvKrHzDj)
+
+### Brain Progression
+
+[![asciicast](https://asciinema.org/a/sWRX8muttf8FwbVdIZAwhpiw7.svg)](https://asciinema.org/a/sWRX8muttf8FwbVdIZAwhpiw7)
