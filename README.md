@@ -5,20 +5,34 @@
 
 ### Setup
 
-> $ make install
+`$ make install`
 
 ### Brain Even
+
+`$ brain-even`
 
 [![asciicast](https://asciinema.org/a/9SXXoipnLs5yJ7GzrE1yr4hOI.svg)](https://asciinema.org/a/9SXXoipnLs5yJ7GzrE1yr4hOI)
 
 ### Brain Calc
 
+`$ brain-calc`
+
 [![asciicast](https://asciinema.org/a/LAhi5n37kBr5IcY7f3fIdTtuX.svg)](https://asciinema.org/a/LAhi5n37kBr5IcY7f3fIdTtuX)
 
 ### Brain Gcd
+
+`$ brain-gcd`
 
 [![asciicast](https://asciinema.org/a/Phc7SfX3RfvoiEDUarvKrHzDj.svg)](https://asciinema.org/a/Phc7SfX3RfvoiEDUarvKrHzDj)
 
 ### Brain Progression
 
+`$ brain-progression`
+
 [![asciicast](https://asciinema.org/a/sWRX8muttf8FwbVdIZAwhpiw7.svg)](https://asciinema.org/a/sWRX8muttf8FwbVdIZAwhpiw7)
+
+### Brain Prime
+
+`$ brain-prime`
+
+[![asciicast](https://asciinema.org/a/eJmeZZpTpwAzKCgBPcMfSVVyr.svg)](https://asciinema.org/a/eJmeZZpTpwAzKCgBPcMfSVVyr)
