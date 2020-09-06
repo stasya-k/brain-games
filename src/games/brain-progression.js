@@ -1,4 +1,5 @@
-import { getRandomInt, gameStart } from '../index.js';
+import gameStart from '../index.js';
+import getRandomInt from '../utils.js';
 
 const description = 'What number is missing in the progression?';
 
@@ -15,7 +16,7 @@ const randomProgression = (firstNum, progressionStep, progressionLength, hiddenN
   return result.trim();
 };
 const progressionLength = 10;
-const brainProgression = () => {
+const genBrainProgression = () => {
   const progressionStep = getRandomInt(1, 9);
   const firstNum = getRandomInt(1, 20);
   const hiddenNumInd = getRandomInt(0, progressionLength - 1);
@@ -24,4 +25,4 @@ const brainProgression = () => {
 
   return [question, correctAnswer];
 };
-export default () => gameStart(description, brainProgression);
+export default () => gameStart(description, genBrainProgression);

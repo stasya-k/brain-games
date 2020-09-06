@@ -1,8 +1,9 @@
-import { gameStart, getRandomInt } from '../index.js';
+import gameStart from '../index.js';
+import getRandomInt from '../utils.js';
 
 const description = 'What is the result of the expression?';
 
-const brainCalc = () => {
+const genBrainCalc = () => {
   let question = ' ';
   let correctAnswer = ' ';
   const num1 = getRandomInt(0, 20);
@@ -22,4 +23,4 @@ const brainCalc = () => {
   return [question, correctAnswer];
 };
 
-export default () => gameStart(description, brainCalc);
+export default () => gameStart(description, genBrainCalc);
