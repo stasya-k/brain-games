@@ -3,23 +3,27 @@ import getRandomInt from '../utils.js';
 
 const description = 'What is the result of the expression?';
 
+const operations = ['+', '-', '*'];
+
+const getCorrectAnswer = (num1, num2, operation) => {
+  switch (operation) {
+    case '+':
+      return num1 + num2;
+    case '-':
+      return num1 - num2;
+    case '*':
+      return num1 * num2;
+    default:
+      throw new Error(`Unknown operation: '${operation}'!`);
+  }
+};
+
 const genBrainCalc = () => {
-  let question = ' ';
-  let correctAnswer = ' ';
   const num1 = getRandomInt(0, 20);
   const num2 = getRandomInt(0, 20);
-  const operations = getRandomInt(1, 3);
-  switch (operations) {
-    case 1: correctAnswer = String(num1 + num2);
-      question = `${num1} + ${num2}`;
-      break;
-    case 2: correctAnswer = String(num1 - num2);
-      question = `${num1} - ${num2}`;
-      break;
-    default: correctAnswer = String(num1 * num2);
-      question = `${num1} * ${num2}`;
-      break;
-  }
+  const operation = operations[getRandomInt(0, operations.length - 1)];
+  const question = `${num1} ${operation} ${num2}`;
+  const correctAnswer = String(getCorrectAnswer(num1, num2, operation));
   return [question, correctAnswer];
 };
 
